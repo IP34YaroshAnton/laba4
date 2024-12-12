@@ -1,0 +1,37 @@
+@media (min-width: 1024px) {
+    div.image-block img.top-image {align-self: flex-start;}
+    div.image-block img.bottom-image {align-self: flex-end;}
+    main > div {
+        flex-flow: row nowrap;
+        gap: 5%;
+    }
+    body {grid-template-rows: 5% 85% 10%;}
+    main {
+        width: 70%;
+        gap: 5%;
+    }
+    div.image-block img {
+        width: 17%;
+    }
+    div.image-block {
+        height: 45%;
+    }
+    div.description-block {
+        height: 40%;
+    }
+    div.description {
+        height: 95%;
+        width: 15%;
+        border-radius: 1dvw;
+        padding: 1%;
+    }
+    h1 {
+        font-size: 1.25dvw;
+    }
+    p {
+        font-size: 0.9dvw;
+    }
+    a, a:visited {
+        font-size: 1.25dvw;
+    }
+}
